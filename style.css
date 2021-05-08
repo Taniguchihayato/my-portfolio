@@ -1,0 +1,32 @@
+.my-infomation {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+}
+
+.img {
+  height: auto;
+  max-width: 100%;
+  animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+}
+
+.main {
+  position: relative;
+}
+.main p {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  color: brown;
+  font-size: 50px;
+}
+.before {
+  color: #fff;
+  background-color: #eb6100;
+}
+.before:hover {
+  color: #fff;
+  background: #f56500;
+}
