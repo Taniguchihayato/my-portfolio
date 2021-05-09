@@ -33,3 +33,4 @@ function slide_time() {
   }
   document.getElementById("img-yaku").src = img_src[num];
 }
+setInterval(slide_time, 4000);
